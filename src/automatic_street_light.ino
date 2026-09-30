@@ -2,7 +2,7 @@ int ldrPin = A0;
 int ledPin = 13;
 
 int ldrValue;
-int threshold = 500;
+const int threshold = 500;
 
 void setup()
 {
